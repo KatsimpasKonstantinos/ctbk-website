@@ -1,0 +1,53 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 0 0 1em 1em;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    padding: 1vh;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.HeaderImage {
+    animation: HeaderImageAnimation 3s forwards;
+    animation-delay: 1s;
+    height: 100vh;
+    max-width: 100vw;
+}
+
+@keyframes HeaderImageAnimation {
+    0% {
+        height: 100vh;
+    }
+
+    100% {
+        height: 20vh;
+    }
+}
+
+
+
+.HeaderNavigation {
+    display: flex;
+    margin: 1em;
+}
+
+.HeaderElement {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--main-text-color);
+    padding-left: 1em;
+    text-transform: uppercase;
+    margin: 0;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 0.3s, color 0.25s;
+}
+
+.HeaderElement:hover {
+    text-decoration-color: var(--main-accent-color);
+    color: var(--main-accent-color);
+}

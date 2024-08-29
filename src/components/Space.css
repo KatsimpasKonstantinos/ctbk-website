@@ -1,0 +1,8 @@
+.SpaceImage {
+    height: 12vh;
+    transition: height 0.2s, transform 0.2s;
+}
+
+.SpaceImage:hover {
+    height: 14vh;
+}

@@ -1,0 +1,12 @@
+.Footer {
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    z-index: 100;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-top: 1px solid var(--main-text-color);
+}

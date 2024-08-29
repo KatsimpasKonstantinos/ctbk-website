@@ -5,6 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --main-bg-color: #020404;
+  --main-text-color: #efe3e3;
+  --main-accent-color: #f9c827;
+  --secondary-accent-color: #ff925f;
+
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+a {
+  color: var(--main-accent-color);
+}
+
+a:hover {
+  color: var(--secondary-accent-color);
+}
+
+h1 {
+  font-size: 6em;
 }
 
 code {
