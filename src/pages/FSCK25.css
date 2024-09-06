@@ -1,0 +1,19 @@
+.FSCK25Image {
+    width: 100vw;
+    max-height: 100vh;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+    animation: drawPath 5s ease;
+    overflow: hidden;
+}
+
+@keyframes drawPath {
+    from {
+        stroke-dasharray: 0, 1000;
+        stroke-dashoffset: 1000;
+    }
+
+    to {
+        stroke-dasharray: 1000, 0;
+        stroke-dashoffset: 0;
+    }
+}

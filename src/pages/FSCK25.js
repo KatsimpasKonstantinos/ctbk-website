@@ -1,7 +1,12 @@
+import FSCKPopcorn from '../media/FSCKPopcorn';
+import './FSCK25.css';
+
 function FSCK25() {
     return (
         <div>
-            <h1>FSCK25</h1>
+            <div className="FSCK25Image">
+                <FSCKPopcorn />
+            </div>
         </div>
     );
 }
